@@ -1,0 +1,71 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #f7f7f7;
+  margin: 10px 20px;
+}
+h1 {
+  font-size: 70px;
+  display: flex;
+  color: rgb(59, 32, 32);
+  margin: 0px;
+  padding: 0px 0px;
+}
+.display-h1-start {
+  place-content: start;
+}
+.display-h1-center {
+  place-content: center;
+  padding: 70px 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.display {
+  display: grid;
+  align-items: center;
+}
+.cabecalho {
+  grid-template-columns: 1fr 2fr;
+}
+.flex-icon-reserva {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+.cabecalho-reserva {
+  font-size: 25px;
+}
+.slogan {
+  display: grid;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
+}
+.flex-rodape {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 30px;
+  place-content: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.detalhe-rodape {
+  text-align: center;
+  height: 1px;
+  background-color: black;
+}
+/* css gastronomia*/
+img {
+  max-width: 100%;
+}
+.colunas {
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-gastro {
+  align-self: center;
+  font-size: 27px;
+  padding: 20px 20px;
+}
