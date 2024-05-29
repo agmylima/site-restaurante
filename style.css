@@ -27,18 +27,19 @@ h1 {
   padding: 0px 0px;
 }
 h3 {
-  color: var(--texto-geral);
+  color: var(--texto-baiao);
 }
 p {
-  color: var(--texto-geral);
+  color: var(--texto-baiao);
 }
 a {
   text-decoration: none;
-  color: var(--texto-geral);
+  color: var(--texto-baiao);
   background: var(--fundo-1);
   transition: 0.3s;
 }
 h2 {
+  color: var(--texto-baiao);
   padding: 80px 0px;
   font-size: 30px;
 }

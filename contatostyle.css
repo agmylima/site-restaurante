@@ -1,14 +1,46 @@
+:root {
+  --fundo-1: #f7f7f7;
+  --fundo-2: #ffffff;
+  --texto-geral: #000000;
+  --texto-baiao: #000000;
+}
+@media (prefers-colors-scheme: dark) {
+  :root {
+    --fundo-1: #000000;
+    --fundo-2: #000000;
+    -texto-geral: #ffffff;
+    --texto-baiao: #ffffff;
+  }
+}
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background: #f7f7f7;
+  background: var(--fundo-1);
   margin: 10px 20px;
+  align-items: center;
 }
 h1 {
   font-size: 70px;
   display: flex;
-  color: rgb(59, 32, 32);
+  color: var(--texto-baiao);
   margin: 0px;
   padding: 0px 0px;
+}
+h3 {
+  color: var(--texto-baiao);
+}
+p {
+  color: var(--texto-baiao);
+}
+a {
+  text-decoration: none;
+  color: var(--texto-baiao);
+  background: var(--fundo-1);
+  transition: 0.3s;
+}
+h2 {
+  color: var(--texto-baiao);
+  padding: 0px 0px;
+  font-size: 30px;
 }
 img {
   max-width: 100%;
@@ -19,10 +51,6 @@ img {
 .display-h1-center {
   place-content: center;
   padding: 70px 0px;
-}
-a {
-  text-decoration: none;
-  color: black;
 }
 .display {
   display: grid;
